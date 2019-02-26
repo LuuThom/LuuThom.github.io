@@ -1,0 +1,260 @@
+
+@media (max-width:768px) {
+    .header ul.navbar-nav {
+        margin: 0;
+    }
+    .header .nav-link {
+        font-size: 9px;
+        padding-right: .5rem;
+        padding-left: .5rem;
+    }
+    .header .form-inline {
+        flex-wrap: nowrap;
+    }
+    .header .form-inline button {
+        padding: 6px 0 0 0;
+    }
+    .nav-header {
+        padding: 0;
+    }
+    .form-header {
+        margin-left: -1rem;
+    }
+    input::-webkit-input-placeholder {
+        color: #fff;
+        font-style: italic;
+        font-size: 9px;
+        padding-left: 3px; 
+    }
+    .banner-content h2 {
+        font-size: 25px;
+        margin-left: 10rem;
+        margin-top: 3rem;
+    }
+    .banner-content h3 {
+        font-size: 9rem;
+        margin-top: -9rem;
+        margin-left: 5rem;
+    }
+    .banner-content span {
+        margin-left: 26rem;
+        margin-top: -4.5rem;
+        font-size: 23px;
+    }
+    .logo img {
+        width: 100%;
+    }
+    .menu .navbar-expand-sm .navbar-nav .nav-link {
+        font-size: 9px;
+        padding-left: 0;
+        padding-right: 0; 
+    }
+    .new-product {
+        margin-top: 33rem;
+    }
+    .product-info .new-sticky {
+        border-top: 95px solid #e5ae49;
+        border-right: 95px solid #ffffff00;
+        position: absolute;
+        top: 0;
+        left: 7.1rem;
+    }
+    .product-hot .new-sticky-text {
+        top: -5.3125rem;
+    }
+    .product-info h3 {
+        font-size: 20px;
+    }
+    .price {
+        font-size: 20px;
+    }
+    .table {
+        width: 68%;
+    }
+    .table td {
+        font-size: 13px
+    }
+    .table td span {
+        font-size: 25px;
+    }
+    .new-product {
+        margin-top: 33rem;
+    }
+    .about-information h4 {
+        font-size: 14px;
+    }
+    .about-information ul li a {
+        font-size: 8px;
+    }
+    .modal .form-group {
+        display: flex;
+    }
+    .modal .modal-img {
+        display: flex;
+        align-items: center;
+    }
+}
+@media (max-width:425px){
+    .header {
+        display: none;
+    }
+    .banner-content h2 {
+        font-size: 9px;
+        margin-left: 5rem;
+        margin-top: 2rem;
+    }
+    .banner-content h3 {
+        font-size: 5rem;
+        margin-top: -6rem;
+        margin-left: 3rem;
+    }
+    .banner-content span {
+        margin-left: 15rem;
+        margin-top: -2.5rem;
+        font-size: 10px;
+    }
+    .logo {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        margin-left: 1rem;
+    }
+    .logo img {
+        width: 100%;
+        margin: auto;
+    }
+    .navbar-toggler {
+        margin: 0;
+        float: right;
+        color: #d8a343;
+        padding: 0;
+    }
+    .menu .navbar-collapse {
+        position: absolute;
+        right: 2rem;
+        top: 1rem;
+    }
+    .menu .navbar {
+        padding-right: 0;
+        width: 100%;
+        margin-left: 0; 
+    }
+    .menu .navbar-nav {
+        background: #d8a343;
+        padding: 1rem 3rem 0;
+    }
+    .menu .nav-item {
+        padding:0 0 1rem 0;
+    }
+    .menu .navbar-expand-sm .navbar-nav .nav-link {
+        border-bottom: 1px solid #f1ebe0;
+        font-size: 13px;
+        padding: 0;
+        margin: 0;
+    }
+    .menu .navbar-expand-sm .navbar-nav .nav-link:hover {
+        color: #dc3519;
+    }
+    button.navbar-toggler.d-lg-none.collapsed:hover {
+        border: 1px solid #d8a343;
+        padding: 0.5rem 0.1rem 0;
+    }
+    .product {
+        background: none;
+        width: 80%;
+        margin: auto;
+    }
+    .product-info {
+        position: absolute;
+        left: -3rem;
+        top: -8rem;
+        padding-top: 6rem;
+        background: url(img/wine.png);
+    }
+    .product-info .new-sticky {
+        border-top: 52px solid #e5ae49;
+        border-right: 54px solid #ffffff00;
+        position: absolute;
+        top: 2.8rem;
+        left: 11.8rem;
+    }
+    .product-hot .new-sticky-text {
+        font-size: 16px;
+        top: -3rem;
+        left: 0;
+    }
+    .about-hot-product {
+        /* width: 80%; */
+        padding: 0;
+        margin-top: 2rem;
+        margin-left: 8rem;
+    }
+    .product-info h3 {
+        font-size: 20px;
+    }
+    .price {
+        font-size: 20px;
+        margin-top: 0;
+    }
+    .table {
+        width: 60%;
+        margin-top: 0;
+    }
+    .table td {
+        font-size: 9px;
+    }
+    .new-product {
+        margin-top: 34rem;
+    }
+    .card {
+        width: 61%;
+        margin: auto;
+    }
+    .owl-carousel .owl-item img {
+        width: 43%;
+    }
+    .new-blog {
+        width: 90%;
+        margin: 5rem auto 0;
+    }
+    .new-info {
+        text-align: center;
+        width: 90%;
+        margin: auto;
+    }
+    .hover-over {
+        border-top: 13rem solid #884b4b08;
+        border-right: 21.25rem solid #9083836b;
+    }
+    .custom-feedback {
+        margin-top: 5rem;
+    }
+    .feedback-detail {
+        width: 80%;
+        margin-left: 1.6rem;
+    }
+    .donor-item {
+        border-right: 0;
+    }
+    .about-information .container {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .form-about .triangle {
+        right: 5.18rem;
+        bottom: 2.79rem;
+    }
+    .about-information .form-control {
+        padding: 2px;
+    }
+    footer {
+        text-align: center;
+    }
+}
+@media (max-width:320px) {
+    .hover-over .hover-icon {
+        position: absolute;
+        top: -6rem;
+        left: 6.5rem;
+    }
+}

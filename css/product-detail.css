@@ -1,0 +1,528 @@
+@font-face {
+    font-family: Caviar;
+    src: url(../font/UTM\ Caviar.ttf);
+}
+@font-face {
+    font-family: Aquarelle;
+    src: url(../font/UTM\ Aquarelle.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Regular;
+}
+/*================menu===============*/
+.dropdown-menu {
+    top: 8.2rem;
+    left: 19.2rem;
+}
+/*========main===========*/
+.navigate li {
+    display: inline-block;
+}
+.navigate .list-one::before {
+    content: '/ '
+}
+.path{
+    border: 1px solid #b7b7b7;
+    padding: 3px 0;
+    margin: 0;
+}
+.next-page {
+    position: relative;
+    padding-left: 7.6rem;
+}
+.next-page .preview {
+    width: 0;
+    height: 0;
+    border-bottom: 10px solid #FFFFFF;
+    border-left: 10px solid #b7b7b7;
+    transform: rotate(-45deg);
+    position: absolute;
+    left: 6.8rem;
+    top: 7px;
+}
+.next-page .next {
+    width: 0;
+    height: 0;
+    border-bottom: 10px solid #FFFFFF;
+    border-left: 10px solid #b7b7b7;
+    transform: rotate(132deg);
+    position: absolute;
+    top: 7px;
+    right: 1.2rem;
+}
+.next-page a {
+    font-size: 16px
+}
+.nav-tabs {
+    border: none;
+}
+.nav-tabs .active {
+    color: orange;
+    margin-right: 15px;
+    display: block;
+}
+.next-page .active {
+    text-decoration: underline;
+    color: orange;
+}
+.next-page a:hover {
+    text-decoration: underline;
+    color: orange;
+}
+.product-detail {
+    margin-top: 40px;
+}
+.tab-pane {
+    margin-top: 60px;
+}
+/*========header=========*/
+.header {
+    position: static;
+    background: #fff;
+}
+.header .nav-link {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    color: #737373
+}
+::placeholder{
+    color: #b7b7b7 !important;
+}
+button.btn.btn-outline-success {
+    color: #b7b7b7;
+}
+/*=======navigate========*/
+.navigate {
+    padding-top: 1.58rem;
+    padding-bottom: 1.78rem;
+}
+.banner-pro-detail {
+    background: url('../Image_ruou/slide-3.jpg') no-repeat center center;
+}
+h2 {
+    font-size: 15px;
+    font-family: Regular;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    background: url('../img/titleleft-dark.png') left bottom;
+    background-repeat: no-repeat; 
+    padding-bottom: 1.2rem;
+}
+a {
+    color: #737373;
+    font-size: 14px;
+    font-family: Regular;
+}
+a:hover {
+    text-decoration: none;
+    color: chocolate;
+}
+h3 {
+    margin-bottom: 0.2rem;
+}
+h3 a {
+    text-transform: uppercase;
+}
+ul {
+    padding: 0;
+    margin-bottom: -0.5rem;
+}
+ul li {
+    list-style: none;
+    line-height: 19px;
+}
+.catagory-product ul li:hover a{
+    color: chocolate;
+} 
+.special {
+    list-style-type: circle;
+    margin-left: 15px; 
+}
+.compare-product {
+    margin-top: 2rem;
+}
+.compare-product p {
+    font-size: 16px;
+    font-family: Regular;
+    margin-top: 1rem;
+    color: #b7b7b7;
+}
+.tag-product a {
+    border: 1px solid #b7bece;
+    color:#737373;
+    padding: 3px 7px;
+    font-size: 12px;
+    display: inline-block;
+    margin: 0.4rem 0;
+}
+.list .tag-product a:hover {
+    color: chocolate;
+    text-decoration: none;
+}
+.tag-product .active {
+    background: #e4ad46;
+    color: #fff;
+}
+.tag-product:active {
+    background: #e4ad46;
+    color: #fff;
+}
+.bg {
+    width: 100%;
+    background: url('../img/bg.png');
+    background-repeat: no-repeat;
+    height: auto;
+    margin-top: 3.125rem;
+}
+.item {
+    margin-bottom: 2.5rem
+}
+.card:hover .owl-item .card-img-top {
+    opacity: 0.5;
+    transition: all 1s linear;
+}
+.card:hover .like {
+    bottom: 10rem;
+    opacity: 0.9;
+    transition: all 2s linear;
+}
+.card {
+    border: none;
+    position: relative;
+}
+.card .img-pro {
+    width: 40%;
+    margin: auto;
+}
+.card:hover {
+    opacity: 0.5;
+    transition: all 0.5s linear;
+    border-right: 1px solid #d29d41;
+    border-bottom: 2px solid #d29d41;
+    box-shadow: -1px 0px 1px 0px #e6b052b0;
+}
+.like {
+    display: none;
+    position: absolute;
+    left: 1rem;
+    color:  #8e8e8e;
+    width: 91%;
+    font-size: 14px;
+    padding: 5px 20px;
+    transition: 5s;
+    opacity: 0.5;
+}
+.like a {
+    color: #8e8e8e;
+}
+.like span {
+    margin-right: 8px;
+    padding-left: 10px;
+}
+.card:hover .like {
+    display: block;
+    bottom: 10rem;
+    opacity: 0.9;
+}
+.card-body {
+    margin-top: 23px;
+    font-size: 21px;
+    text-align: center;
+}
+h4.card-title {
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 7px;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+}
+.new-price {
+    color: #eaae48;
+}
+.old-price:before {
+    content: '-';
+}
+.old-price {
+    font-size: 16px;
+    margin-left: 7px;
+    text-decoration: line-through;
+}
+/*product-grid*/
+.link-pro {
+    width: 65%;
+    display: inline-block;
+    transition: all 2s linear;
+}
+.link-pro:hover img {
+    width: 90%;
+    opacity: 0.5;
+}
+.title {
+    font-size: 25px;
+    text-transform: uppercase;
+    margin: 0;
+}
+.price-main {
+    color: #e6ae48;
+    font-size: 34px;
+    font-family: Caviar;
+}
+#product-grid p {
+    color: #737373;
+    font-size: 14px;
+    width: 70%;
+    margin-top: 8px;
+    line-height: 19px;
+}
+.rest {
+    color: #737373;
+    margin-top: 26px;
+}
+input[type="button"] {
+    color: white;
+    background: #000;
+    border: none;
+    padding: 2px 7px;
+    font-size: 16px;
+    margin-top: 11px;
+}
+input[type="button"]:hover {
+    color: #e6ae48;
+}
+.rest span {
+    margin-left: 32px;
+    margin-right: 28px;
+}
+.rest span img {
+    margin-right: 6px
+}
+.overview-detail {
+    border-bottom:2px solid #b7b7b75c;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+.overview-detail .img-detail {
+    display: flex;
+    justify-content: center;
+}
+.overview-detail .content-detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media (max-width:1024px) {
+    .header ul.navbar-nav {
+        margin-right: 0rem;
+    }
+    .form-header {
+        padding: 0;
+    }
+    .form-inline button {
+        padding: 0;
+    }
+    .next-page {
+        padding-left: 5.6rem;
+    }
+    .next-page .preview {
+        left: 4.8rem;
+    }
+    .form-about .triangle {
+        right: 3.19rem;
+        bottom: 3.31rem;
+    }
+    .border-top {
+        border-top: 1px solid #dee2e6!important;
+        margin-top: 1rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+}
+@media (max-width:768px){
+    .header ul.navbar-nav {
+        margin: 0;
+    }
+    .header .nav-link {
+        font-size: 9px;
+        padding-right: .5rem;
+        padding-left: .5rem;
+    }
+    .header .form-inline {
+        flex-wrap: nowrap;
+    }
+    .header .form-inline button {
+        padding: 6px 0 0 0;
+    }
+    .nav-header {
+        padding: 0;
+    }
+    .menu .navbar-expand-sm .navbar-nav .nav-link {
+        font-size: 9px;
+        padding-left: 0;
+        padding-right: 0; 
+    }
+    .logo img {
+        width: 100%;
+    }
+    .form-header {
+        margin-left: -1rem;
+    }
+    input::-webkit-input-placeholder {
+        color: #fff;
+        font-style: italic;
+        font-size: 9px;
+        padding-left: 3px; 
+    }
+    .banner-pro-detail img {
+        width: 100%;
+    }
+    .card-body {
+        font-size: 18px;
+    }
+    .old-price {
+        font-size: 12px;
+    }
+    h4.card-title {
+        font-size: 14px;
+    }
+    .submit {
+        padding: 3px 14px 3px;
+    }
+    .form-about .triangle {
+        right: 1.54rem;
+        bottom: 5.8rem;
+    }
+    .address .email,.address .phone {
+        display: block;
+        margin-left: 0;
+    }
+    .address .phone1::after {
+        display: none;
+    }
+    .about-information h4 {
+        font-size: 14px;
+    }
+    .about-information ul li a {
+        font-size: 8px;
+    }
+    .address {
+        font-size: 13px;
+        color: #737373;
+    }
+    .address span {
+        font-size: 13px;
+    }
+}
+@media (max-width:425px){
+    .header {
+        display: none;
+    }
+    .banner-content h2 {
+        font-size: 9px;
+        margin-left: 5rem;
+        margin-top: 2rem;
+    }
+    .banner-content h3 {
+        font-size: 5rem;
+        margin-top: -6rem;
+        margin-left: 3rem;
+    }
+    .logo {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        margin-left: 1rem;
+    }
+    .logo img {
+        width: 100%;
+        margin: auto;
+    }
+    .navbar-toggler {
+        margin: 0;
+        float: right;
+        color: #d8a343;
+        padding: 0;
+    }
+    .menu .navbar-collapse {
+        position: absolute;
+        right: 2rem;
+        top: 1rem;
+    }
+    .menu .navbar {
+        padding-right: 0;
+        width: 100%;
+        margin-left: 0; 
+    }
+    .menu .navbar-nav {
+        background: #d8a343;
+        padding: 1rem 3rem 0;
+    }
+    .menu .nav-item {
+        padding:0 0 1rem 0;
+    }
+    .menu .navbar-expand-sm .navbar-nav .nav-link {
+        border-bottom: 1px solid #f1ebe0;
+        font-size: 13px;
+        padding: 0;
+        margin: 0;
+    }
+    .menu .navbar-expand-sm .navbar-nav .nav-link:hover {
+        color: #dc3519;
+    }
+    button.navbar-toggler.d-lg-none.collapsed:hover {
+        border: 1px solid #d8a343;
+        padding: 0.5rem 0.1rem 0;
+    }
+    .banner-pro-detail img {
+        width: 100%;
+    }
+    .list-catagory {
+        display: none;
+    }
+}
+@media (max-width:320px) {
+    .next-page {
+        position: relative;
+        padding-left: 4.6rem;
+    }
+    .next-page .preview {
+        left: 3.9rem;
+    }
+    .overview-detail .content-detail {
+        text-align: center;
+    }
+    #product-grid p {
+        margin: auto;
+    }
+    .card-body {
+        font-size: 15px;
+    }
+    .old-price {
+        font-size: 10px;
+    }
+    input[type="button"] {
+        margin-top: 11px;
+    }
+    .about-information h4 {
+        font-size: 14px;
+    }
+    .about-information ul li a {
+        font-size: 8px;
+    }
+    .address {
+        margin-top: 1rem;
+
+    }
+    .send-email {
+        margin-top: 1rem;
+    } 
+    .submit {
+        padding: 2.41px 14px 2px;
+    }
+    .form-about .triangle {
+        right: 3.54rem;
+        bottom: 2.79rem;
+    }
+} 
